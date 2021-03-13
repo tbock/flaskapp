@@ -15,3 +15,7 @@ class HelloAnybody(Resource):
 
 api.add_resource(HelloWorld, '/')
 api.add_resource(HelloAnybody, '/anybody')
+
+@app.route('/another')
+def another():
+    return "Regular Flask route"
