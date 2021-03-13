@@ -13,6 +13,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "flask-demo-for-drew" #Must be unique in Heroku
+          heroku_app_name: "morning-headland-98263" #Must be unique in Heroku
           heroku_email: "travis.bock@gmail.com"
           usedocker: true
